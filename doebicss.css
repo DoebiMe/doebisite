@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  /* border: 1px solid #ff0000; mark border page red */
+  text-align: center;
+}
+
+li {
+  background-color: #ee0000;
+}
+
+.top {
+  /* border: 1px solid #00ff00; mark border top yellow */
+  align-items: center;
+  align-content: center;
+  background-color: #0000ff;
+}
+
+.mid div  {
+
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.topimages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .img {
+    margin-top: 30px;
+  }
+}
+
+.thename {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #00ff00;
+}
+
+.mymail {
+  /*border: 1px solid #ffff00; mark border mail redyellow */
+  text-align: center;
+  background-color: #ff0000;
+}
+
+@media screen only and (width <501px)
+{
+  .img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen only and (width > 500px) {
+  .img {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
